@@ -12,7 +12,7 @@ public class SpringJenkinsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
-@RequestMapping
+@RequestMapping("path")
 public String getMessage() {
 	return "hello";
 }
